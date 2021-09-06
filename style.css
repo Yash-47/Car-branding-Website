@@ -1,0 +1,175 @@
+body{
+    overflow-x: hidden;
+    background-color: #000;
+}
+.nav_style{
+    background-color: black;
+    
+}
+.logo_background{
+    background-color: #fff;
+    transform: skewX(-34deg);
+    padding-left: 50px;
+    margin-left: -35px;
+}
+.logo_background h1{
+    color: black;
+    transform: skewX(34deg);
+    font-family: 'Noto Sans HK', sans-serif;
+    font-weight: 700;
+}
+.logo_background img{
+    transform: skewX(34deg);
+    margin-right: 14px;
+}
+.list{
+    display: flex;
+    float: right;
+    justify-content: baseline;
+    margin-top: auto;
+}
+.list li{
+    margin: 12px;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+    position: relative;
+}
+.list li a{
+    text-decoration: none;
+    color: white;
+}
+.list li a::after{
+    bottom: 0;
+    content: "";
+    display: flex;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.list li a:hover::after{
+    width: 100%; 
+    left: 0;
+}
+.carousel-item {
+    height: 32rem;
+    position: relative;
+}
+.custom_btn{    
+    color: #fff;
+    background: #000;
+    border: 1px solid rgb(136, 136, 136);
+    text-decoration: none;
+    margin-top: 18px;
+    border-radius: 0%;
+    transition: ease-out 0.5s;
+    letter-spacing: 0.1rem;
+    font-size: 18px;
+}
+.custom_btn:hover{
+    background-color: #fff;
+    color: #000
+}
+.container h1{
+    color: #fff;
+    font-weight: 500;
+    font-size: 55px;
+    font-family: 'Noto Sans HK', sans-serif;
+    line-height: 5rem;
+    
+}
+.carousel-inner .container {
+    position: relative;
+    bottom: 0;
+    left:  100px;
+    right: 0;
+    padding-bottom: 100px;
+    margin-left: auto;
+}
+.carousel-1 {
+    background: url(Image/banner-4.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    
+}
+.carousel-2{
+    background: url(Image/banner-2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+.carousel-3{
+    background: url(Image/banner-3.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+.carousel-1::after,.carousel-2::after,.carousel-3::after{
+    position: absolute;
+    z-index: -1;
+    background-color: #000;
+    opacity: 0.5;
+}
+.carousel-3 h1{
+    margin-top: 100px;
+    color: #d6e64d;
+}
+#container{
+    background-color: #000;
+}
+.text {
+    font-family: sans-serif;
+    line-height: 2rem;
+    letter-spacing: 2px;
+    align-self: flex-end;
+}
+.heading-text{
+    letter-spacing: 0.1rem;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    width: 10%;
+}
+.design {
+    padding: 55px;
+    background-color: #fff;
+    transform: skewX(-30deg);
+    margin-right: 100px;
+    margin-right: -150px;
+}
+.image_class{
+    transform: skewX(30deg);
+    width: 480px;
+    height: max-content;
+    margin-left: 40px;
+}
+.design_2{
+    padding: 25px;
+    background-color: #fff;
+    transform: skewX(-30deg);
+    margin-left: -800px;
+}
+.image_class_2{
+    transform: skewX(30deg);
+    width: 480px;
+    height: auto;
+    margin-left: 800px;
+    
+}
+#container h1{
+    font-weight: 400;
+}
+.title-text{
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.history{
+    width: auto;
+    height: auto;
+}
