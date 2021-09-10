@@ -173,3 +173,28 @@ body{
     width: auto;
     height: auto;
 }
+.footer{
+    background-color: #262626;
+    font-size: 18px;
+}
+.footer li{
+    margin: 5px;
+    margin-right: 20px;
+    padding-left: 40px;
+}
+.footer li a{
+    text-decoration: none;
+    color: rgb(156, 143, 143);
+}
+.footer li a:focus{
+    outline: none;
+}
+.footer li a:hover{
+    color: #fff;
+}
+h5{
+    margin-left: 45px;
+}
+.lp{
+    padding: 40px;
+}
