@@ -176,6 +176,7 @@ body{
 .footer{
     background-color: #262626;
     font-size: 18px;
+    
 }
 .footer li{
     margin: 5px;
@@ -252,4 +253,83 @@ hr{
 .single-model:hover .description{
     opacity: 1;
     bottom: 5%;
+}
+.img-hover-zoom{
+    height: 300px;
+    overflow: hidden;
+}
+
+.img-hover-zoom:hover {
+    transform: scale(1.1);
+}
+.img-hover-zoom {
+    transition: transform .6s ease-in-out;
+}
+.carousel-1, .carousel-2, .carousel-3{
+    background-color: black;
+	opacity: 0.3;
+    position: relative;
+    z-index: 1;
+}
+.carousel-1::after, .carousel-2::after, .carousel-3::after{
+    content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.6;
+    z-index: -1;
+}
+
+#banner{
+    background-image: url(Image/event-banner.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+    height: 85vh;
+    width: 100vw;
+}
+#banner::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+#banner h1{
+    font-weight: 100;
+    font-size: 50px;
+    letter-spacing: 0.1rem;
+}
+#banner h3{
+    font-weight: lighter;
+    letter-spacing: 0.1rem;
+    font-size: 30px;
+}
+.headlines{
+    padding-top: 100px;
+}
+#event h5{
+    font-weight: lighter;
+    letter-spacing: 0.1rem;
+    font-size: 55px;
+    margin-left: -1px;
+}
+.card-img-overlay h1{
+    margin-top: 280px;
+    font-size: 80px;
+    font-weight: lighter;
+    color: #fff;
+}
+.card-img-overlay p{
+    font-size: 35px;
+    line-height: 2rem;
+}
+.card:hover{
+    box-shadow: 0 50px 50px rgba(0,0,0,0.19), 0 10px 20px rgba(0,0,0,0.23);
 }
