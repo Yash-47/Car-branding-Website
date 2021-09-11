@@ -198,3 +198,58 @@ h5{
 .lp{
     padding: 40px;
 }
+hr{
+    color: white;
+    height: 2px;
+}
+.button{
+    color: #fff;
+    background: #000;
+    margin-left: 575px;
+    margin-bottom: 50px;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 0.1rem;
+    font-size: 18px;
+    transition: ease-out 0.5s;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+}
+.single-model{
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+.overlay{
+    position: absolute;
+    opacity: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #1f2222);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transition: 1s;
+}
+.description{
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: 1s;
+    color: #fff;
+}
+.single-model:hover .overlay{
+    opacity: 1;
+    color: #fff;
+}
+.single-model:hover .description{
+    opacity: 1;
+    bottom: 5%;
+}
