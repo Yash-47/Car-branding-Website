@@ -321,7 +321,7 @@ hr{
     margin-left: -1px;
 }
 .card-img-overlay h1{
-    margin-top: 280px;
+    margin-top: 250px;
     font-size: 80px;
     font-weight: lighter;
     color: #fff;
@@ -331,5 +331,51 @@ hr{
     line-height: 2rem;
 }
 .card:hover{
-    box-shadow: 0 50px 50px rgba(0,0,0,0.19), 0 10px 20px rgba(0,0,0,0.23);
+    transform: translateY(-10px);  
+}
+.card{
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+.card-2{
+    margin-left: 10px;
+}
+.card img{
+    border-radius: 5px;
+}
+.card-2 img{
+    height: 410px;
+}
+.contact_us h5{
+    font-weight: lighter;
+    color: #fff;
+    font-size: 50px;
+}
+.heading_text p{
+    color: #fff;
+    margin-left: 48px;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+.dealership-desc h6{
+    color: #fff;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+.dealership-desc p{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 34px;
+    margin-bottom: 30px;
+}
+.dealership-desc h3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-left: 32px;
+}
+.dealership-desc a{
+    text-decoration: none;
+    
 }
